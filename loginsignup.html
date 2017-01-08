@@ -1,10 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Login: Banana</title>
+		<title>Login - Banana</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="images/Hungerheroes.png">
 	</head>
 	<body>
 		<!-- Page Wrapper -->
@@ -36,35 +37,34 @@
 			<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
+					<div class="inner">
 					<div class="logo">
-						<span class="icon fa-diamond"></span>
+						<img class="img-circle" src="images/Hungerheroes.png">
 					</div>
-					<h2>Banana: </h2>
-					<p>It's Appealing</p>
 				</div>
 			</section>
 			<!-- Wrapper -->
 			<section id="wrapper">
 				<div class="wrapper spotlight style1">
-					<a href="loginsignup.html" class="image">
-						<img src="images/pic01.jpg" alt="" />
+					<a href="#signup" class="image">
+						<img src="images/SIGNUP.png" alt=""/>
 					</a>
-					<a href="#three" class="image">
-						<img src="images/pic02.jpg" alt="" />
+					<a href="#login" class="image">
+						<img src="images/LOGIN.png" alt="" />
 					</a>
 				</div>
 				<!-- One -->
 				<section id="one" class="wrapper alt spotlight style2">
 					<div class="inner">
-						<a href="#" class="image">
-							<img src="images/pic01.jpg" alt="" />
+						<a href="#" class="image" >
+							<img src="images/SIGNUP.png" alt="" />
 						</a>
-						<div class="content">
-							<div class="form">
+						<div class="content" >
+							<div class="form" >
 								<div class="tab-content">
 									<div id="signup">
 										<h1>Sign Up</h1>
-										<form action="/" method="post">
+										<form action="/" method="post" name="signup">
 											<div class="top-row">
 												<div class="field-wrap">
 													<label>
@@ -95,8 +95,13 @@
 													<label for="contacts">Phone Number*</label>
 													<input id="contacts" placeholder="Enter Phone Number" type="tel" required/>
 												</div>
+												<label for="account">Account Type*</label>
+												<select name="accountforsignup">
+												  <option value="supplier" name="supplier">Supplier</option>
+												  <option value="consumer" name="consumer">Consumer</option>
+												</select>
 												<div class="field-wrap">
-													<button type="submit" class="button button-block"/>Get Started</button>
+													<button type="submit" name="signup" class="button button-block"/>Get Started</button>
 											</div>
 										</div>
 									</form>
@@ -112,16 +117,16 @@
 			<section id="two" class="wrapper spotlight style3">
 				<div class="inner">
 					<a href="#" class="image">
-						<img src="images/pic02.jpg" alt="" />
+						<img src="images/LOGIN.png" alt="" />
 					</a>
 					<div id="login">
 						<h1>Login</h1>
-						<form action="/" method="post">
+						<form action="/" method="post" name="login">
 							<div class="field-wrap">
 								<label>
-													Username*
+													Email Id*
 												</label>
-								<input type="text" placeholder="Enter Username" name="uname" required>
+								<input type="text" placeholder="Enter Email Id" name="email" required>
 								</div>
 								<div class="field-wrap">
 									<label>
@@ -129,7 +134,12 @@
 												</label>
 									<input type="password" placeholder="Enter Password" name="password" required>
 									</div>
-									<button type="submit" class="button button-block"/>Log In</button>
+									<label for="account">Account Type*</label>
+												<select name="accountforlogin">
+												  <option value="supplier" name="supplier">Supplier</option>
+												  <option value="consumer" name="consumer">Consumer</option>
+												</select>
+									<button type="submit" name="login" class="button button-block"/>Log In</button>
 							</form>
 						</div>
 					</div>
@@ -170,16 +180,16 @@
 						</li>
 						<li class="fa-phone">+91 8291815591</li>
 						<li class="fa-envelope">
-							<a href="#">banana@gmail.com</a>
+							<a href="mailto:hungerheroes@30wave.com">hungerheroes@30wave.com</a>
 						</li>
 						<li class="fa-twitter">
-							<a href="#">twitter.com/banana</a>
+							<a href="https://twitter.com/Hungerheroesngo">twitter.com/hungerheroesngo/</a>
 						</li>
 						<li class="fa-facebook">
-							<a href="#">facebook.com/banana</a>
+							<a href="https://www.facebook.com/Hungerheroesngo">facebook.com/hungerheroesngo/</a>
 						</li>
 						<li class="fa-instagram">
-							<a href="#">instagram.com/banana</a>
+							<a href="https://www.instagram.com/hungerheroesngo/">instagram.com/hungerheroesngo/</a>
 						</li>
 					</ul>
 					<ul class="copyright">

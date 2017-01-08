@@ -2137,7 +2137,8 @@
 /* Icon */
 
 	.icon {
-		text-decoration: none;
+		background-image: url("images/Hungerheroes.png");
+		/*text-decoration: none;
 		border-bottom: none;
 		position: relative;
 	}
@@ -2152,7 +2153,7 @@
 		}
 
 		.icon > .label {
-			display: none;
+			display: none;*/
 		}
 
 /* Image */
@@ -2162,6 +2163,7 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
+		
 	}
 
 		.image img {
@@ -3697,3 +3699,10 @@
 		}
 
 	}
+.img-circle {
+    border-radius: 50%;
+	image-align:center;
+    display: block;
+    margin: 0 auto;
+
+}
